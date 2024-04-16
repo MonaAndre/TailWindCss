@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="se">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabell med TailWindCss</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+
+  <body
+    class="bg-neutral-50 text-neutral-800 dark:bg-gray-800 dark:text-neutral-100 font-sans"
+  >
+    <div class="mx-auto my-auto max-w-screen-lg py-5 md:p-7">
+      <h1 class="text-2xl md:text-3xl p-10 font-bold">
+        Utbildnings kurser Front-end Developer på Medieinstitutet
+      </h1>
+      <span
+      class="flex space-x-3 p-3 border left-0-0 bg-gray-300 dark:bg-gray-900 sm:w-5/12 rounded-sm"
+    >
+      <input
+        placeholder=" Skriv här"
+        type="text"
+        class="rounded-sm w-full"
+      />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="2.0"
+        stroke="currentColor"
+        class="w-6 h-6 cursor-pointer"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+        />
+      </svg>
+    </span>
+      <section class="overflow-auto">
+        <table class="w-full table-auto text-left border text-sm md:text-md">
+          <thead class="bg-gray-300 dark:bg-gray-900">
+            <tr class="uppercase">
+              <th class="px-4 py-2 w-1/12">
+                №
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 inline"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+                  />
+                </svg>
+              </th>
+              <th class="px-4 py-2 w-4/12">
+                Kursnamn
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 inline"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+                  />
+                </svg>
+              </th>
+              <th class="px-4 py-2 w-2/12">
+                Från
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 inline"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+                  />
+                </svg>
+              </th>
+              <th class="px-4 py-2 w-2/12">
+                Till
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 inline"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 7.5 7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+                  />
+                </svg>
+              </th>
+              <th class="px-4 py-2 w-1/12">Status</th>
+              <th class="px-4 py-2 w-1/12">Betyg</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3 font-normal">1</td>
+              <td class="border px-4 py-3">HTML & CSS</td>
+              <td class="border px-4 py-3">23.09.04</td>
+              <td class="border px-4 py-3">23.10.02</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">2</td>
+              <td class="border px-4 py-3">UX/UI usability</td>
+              <td class="border px-4 py-3">23.10.03</td>
+              <td class="border px-4 py-3">23.10.25</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">3</td>
+              <td class="border px-4 py-3">JavaScript - Grund</td>
+              <td class="border px-4 py-3">23.10.30</td>
+              <td class="border px-4 py-3">24.01.05</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-2 font-bold">VG</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">4</td>
+              <td class="border px-4 py-3">
+                Kompetensportfölj och Entreprenörskap
+              </td>
+              <td class="border px-4 py-3">23.10.19</td>
+              <td class="border px-4 py-3">23.10.25</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">5</td>
+              <td class="border px-4 py-3">Agil projektledning</td>
+              <td class="border px-4 py-3">23.12.18</td>
+              <td class="border px-4 py-3">24.01.05</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">6</td>
+              <td class="border px-4 py-3">Arbetsmetodik för utvecklare</td>
+              <td class="border px-4 py-3">24.01.08</td>
+              <td class="border px-4 py-3">24.01.19</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">7</td>
+              <td class="border px-4 py-3">API-utveckling</td>
+              <td class="border px-4 py-3">24.01.22</td>
+              <td class="border px-4 py-3">24.03.22</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">8</td>
+              <td class="border px-4 py-3">
+                Grafiska verktyg för gränssnittsdesign
+              </td>
+              <td class="border px-4 py-3">24.03.25</td>
+              <td class="border px-4 py-3">24.04.12</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-green-300 rounded-md text-green-800"
+                  >Avslutad</span
+                >
+              </td>
+              <td class="bor3er px-4 py-3 font-bold">VG</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">9</td>
+              <td class="border px-4 py-3">Testning</td>
+              <td class="border px-4 py-3">24.04.15</td>
+              <td class="border px-4 py-3">24.05.03</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-amber-200 rounded-md text-amber-600"
+                  >Pågående</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">-</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">10</td>
+              <td class="border px-4 py-3">JavaScript - Fördjupning (React)</td>
+              <td class="border px-4 py-3">24.05.06</td>
+              <td class="border px-4 py-3">24.09.13</td>
+              <td class="border px-4 py-3">
+                <span
+                  class="p-1 border-0 bg-amber-200 rounded-md text-amber-600"
+                  >Pågående</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">-</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">11</td>
+              <td class="border px-4 py-3">LIA1</td>
+              <td class="border px-4 py-3">24.09.16</td>
+              <td class="border px-4 py-3">24.11.22</td>
+              <td class="border px-4 py-3">
+                <span class="p-1 border-0 bg-sky-300 rounded-md text-sky-700"
+                  >Kommande</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">-</td>
+            </tr>
+            <tr
+              class="bg-zinc-100 hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white dark:bg-gray-900 transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">12</td>
+              <td class="border px-4 py-3">Examensarbete</td>
+              <td class="border px-4 py-3">24.11.25</td>
+              <td class="border px-4 py-3">25.01.03</td>
+              <td class="border px-4 py-3">
+                <span class="p-1 border-0 bg-sky-300 rounded-md text-sky-700"
+                  >Kommande</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">-</td>
+            </tr>
+            <tr
+              class="hover:bg-gray-200 hover:text-black dark:hover:bg-slate-600 dark:hover:text-white transition-all duration-200 ease-in"
+            >
+              <td class="border px-4 py-3">13</td>
+              <td class="border px-4 py-3">LIA2</td>
+              <td class="border px-4 py-3">25.01.06</td>
+              <td class="border px-4 py-3">25.04.25</td>
+              <td class="border px-4 py-3">
+                <span class="p-1 border-0 bg-sky-300 rounded-md text-sky-700"
+                  >Kommande</span
+                >
+              </td>
+              <td class="border px-4 py-3 font-bold">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <div class="mt-5 mb-10">
+        <ul class="flex justify-end">
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200 text-gray-500 dark:hover:bg-gray-700 hover:text-gray-300 rounded-l-sm transition-all duration-200 ease-in"
+              href="#"
+              >Föregående</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200  text-blue-400 transition-all duration-200 ease-in"
+              href="#"
+              >1</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200 text-gray-500 dark:hover:bg-gray-700 hover:text-gray-300 transition-all duration-200 ease-in"
+              href="#"
+              >2</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200 text-gray-500 dark:hover:bg-gray-700 hover:text-gray-300 transition-all duration-200 ease-in"
+              href="#"
+              >3</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200 text-gray-500 dark:hover:bg-gray-700 hover:text-gray-300 transition-all duration-200 ease-in"
+              href="#"
+              >4</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-2 px-3 border border-gray-200 text-gray-500 dark:hover:bg-gray-700 hover:text-gray-300 rounded-r-sm transition-all duration-200 ease-in"
+              href="#"
+              >Nästa</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
